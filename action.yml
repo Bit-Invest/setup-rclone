@@ -62,7 +62,7 @@ runs:
         version: ${{ steps.version-windows.outputs.version }}
         
     - name: Install Rclone on tool cache
-      uses: AnimMouse/tool-cache@v1
+      uses: Bit-Invest/tool-cache@main
       with:
         folder_name: Rclone
         cache_hit: ${{ steps.cache.outputs.cache-hit }}
